@@ -190,7 +190,6 @@ header a.active {
     height: calc(75vh - 90px);
     justify-content: center;
     display: flex;
-
 }
 
 #home .app {
@@ -256,8 +255,6 @@ header a.active {
 }
 
 .testimonials-content{
-    position: relative;
-    flex-shrink: 0;
     display: flex;
     justify-content: space-between;
 }
@@ -285,12 +282,14 @@ header a.active {
     width: 80%;
     line-height: 36px;
 }
+
 .author {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 22px;
     margin-bottom: 10px;
 }
+
 .job-title {
     font-family: 'Inter', sans-serif;
     font-weight: 300;
