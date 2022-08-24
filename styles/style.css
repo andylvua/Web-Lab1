@@ -72,10 +72,6 @@ header a {
     transition: all 0.3s ease-in-out;
 }
 
-header a:first-child {
-    margin-left: -10px;
-}
-
 header .logo {
     display: flex;
     align-items: center;
@@ -90,7 +86,12 @@ header .login, header .register, .app .download {
     font-weight: 300;
     font-size: 15px;
     transition: all 0.2s ease-in-out;
-    margin-left: 14px;
+}
+
+header .register {
+    right: 0;
+    margin-right: 10px;
+    margin-left: 15px;
 }
 
 header .register, .app .download {
@@ -116,13 +117,18 @@ header a.active {
 }
 
 .header-left {
-    width: 340px;
+    display: flex;
+}
+
+.logo {
+    position: absolute;
+    justify-content: center;
 }
 
 .header-right {
-    width: 340px;
-    display: inline;
-    text-align: right;
+    display: flex;
+    position: absolute;
+    right: 0;
 }
 
 
