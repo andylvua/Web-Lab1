@@ -1,4 +1,4 @@
-# Web. Lab 1
+# Web. Lab 1 <br> [![](https://github.com/andylvua/Web-Lab1/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/andylvua/Web-Lab1/actions/workflows/pages/pages-build-deployment)
 
 ## Simple landing page
 
